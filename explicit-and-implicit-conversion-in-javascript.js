@@ -30,3 +30,21 @@ if (isValid) {
 let age = "25";
 let totalAge = age + 5;
 console.log("Total Age: " + totalAge);
+
+
+let str = "5";
+let num = Number(str) - 2;
+console.log("The result is:" + num);
+
+let age = Number("25");
+let totalAge = age + 5;
+console.log("Total age:" + totalAge);
+
+let age = Number("25");
+totalAge = age + 5;
+console.log("Total Age:" + totalAge);
+
+let thisVariable - null;
+if (thisVariable) {
+  console.log("This is true");
+}
